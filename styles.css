@@ -50,6 +50,7 @@ header nav ul li a {
     font-weight: bold;
     font-family: 'Playfair Display', serif;
     transition: color 0.3s ease;
+    padding: 10px 20px; /* Aumentar a área de toque */
 }
 
 header nav ul li a:hover {
@@ -110,10 +111,10 @@ header .btn-cta:hover {
 .hero .btn-cta {
     background: #FFD700;
     color: #000;
-    padding: 15px 25px;
+    padding: 15px 25px; /* Aumentar o padding */
     text-decoration: none;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 16px; /* Aumentar o tamanho da fonte */
     animation: fadeInUp 1s ease-in-out;
 }
 
@@ -392,17 +393,20 @@ header .btn-cta:hover {
 }
 
 .contact-info .btn-whatsapp {
-    background: #25D366;
-    color: #fff;
-    padding: 10px 20px;
+    background: #25D366; /* Cor de fundo mais escura */
+    color: #ffffff; /* Texto branco */
+    padding: 15px 25px; /* Aumentar o padding */
     text-decoration: none;
     border-radius: 5px;
+    font-size: 16px; /* Aumentar o tamanho da fonte */
     transition: background 0.3s ease;
-    margin-top: 20px; /* Adiciona espaçamento acima do botão */
+    margin-top: 20px; /* Espaço adicional acima do botão */
+    display: inline-block;
 }
 
 .contact-info .btn-whatsapp:hover {
-    background: #1DA851;
+    background: #1DA851; /* Cor de fundo ao passar o mouse */
+    color: #ffffff; /* Texto branco */
 }
 
 /* Footer */
@@ -432,6 +436,7 @@ footer .footer-links {
 footer .footer-links a {
     color: #FFD700;
     text-decoration: none;
+    padding: 10px 20px; /* Aumentar o padding para tornar a área de toque maior */
 }
 
 footer .footer-links a:hover {
